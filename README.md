@@ -55,11 +55,11 @@ To add your own custom theme, please refer [theming.md](https://github.com/prasa
     - [x] Material-Sakura
     - [x] Graphite-Mono
     - [x] Cyberpunk-Edge
-    - [ ] Gruvbox-Retro (maybe later)
     - [ ] Nordic-Blue (maybe later)
 
 - Contributors themes
     - [x] Frosted-Glass by T-Crypt
+    - [x] Gruvbox-Retro by T-Crypt
 
 | Catppuccin-Mocha |
 | :-: |
@@ -105,6 +105,11 @@ To add your own custom theme, please refer [theming.md](https://github.com/prasa
 | :-: |
 | ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_1.png) |
 | ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_2.png) |
+
+| Gruvbox-Retro |
+| :-: |
+| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
+| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
 
 
 ### Styles
@@ -256,12 +261,13 @@ pokemon-colorscripts-git | display pokemon sprites
 | <kbd>F10</kbd> | mute audio output (toggle)
 | <kbd>F11</kbd> | decrease volume (hold)
 | <kbd>F12</kbd> | increase volume (hold)
+| <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd> | decrease volume for spotify (hold)
+| <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd> | increase volume for spotify (hold)
 | <kbd>Super</kbd> + <kbd>V</kbd> | clipboard history paste
 | <kbd>Super</kbd> + <kbd>L</kbd> | lock screen
 | <kbd>Super</kbd> + <kbd>Backspace</kbd> | logout menu
 | <kbd>Super</kbd> + <kbd>P</kbd> | screenshot snip
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | print current screen
-| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | launch obs
 | <kbd>Super</kbd> + <kbd>RightClick</kbd> | resize the window 
 | <kbd>Super</kbd> + <kbd>LeftClick</kbd> | change the window position
 | <kbd>Super</kbd> + <kbd>MouseScroll</kbd> | cycle through workspaces
@@ -275,6 +281,7 @@ pokemon-colorscripts-git | display pokemon sprites
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> | previous wallpaper
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> | next waybar mode
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> | previous waybar mode
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> | toggle (theme <//> wall) based colors
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | theme select menu
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | wallpaper select menu
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> | rofi style select menu

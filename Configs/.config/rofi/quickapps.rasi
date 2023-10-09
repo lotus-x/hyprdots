@@ -2,7 +2,6 @@
 configuration {
     modi:                        "drun";
     show-icons:                  true;
-    icon-theme:                  "Tela-circle-dracula";
 }
 
 @theme "~/.config/rofi/themes/theme.rasi"
@@ -11,14 +10,13 @@ configuration {
 // Main //
 window {
     height:                      70px;
-    width:                       311px;
     transparency:                "real";
     fullscreen:                  false;
     enabled:                     true;
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
-    background-color:            @background;
+    background-color:            @main-bg;
 }
 mainbox {
     enabled:                     true;
@@ -42,14 +40,14 @@ listview {
     padding:                     10px;
     spacing:                     10px;
     enabled:                     true;
-    columns:                     5;
+    columns:                     1;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
-    layout:                      horizontal;
+    flow:                        horizontal; 
     reverse:                     false;
-    fixed-height:                true;
-    fixed-columns:               true;
+    fixed-height:                false;
+    fixed-columns:               false;
     cursor:                      "default";
     background-color:            transparent;
 }
@@ -59,13 +57,18 @@ listview {
 element {
     orientation:                 vertical;
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0px;
     padding:                     0px;
     cursor:                      pointer;
     background-color:            transparent;
 }
+@media(max-aspect-ratio: 1.8) {
+    element {
+        orientation:             vertical;
+    }
+}
 element selected.normal {
-    background-color:            @selected-normal-background;
+    background-color:            @main-fg;
 }
 element-icon {
     size:                        50px;
